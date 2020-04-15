@@ -24,9 +24,9 @@ const movies = [
 function App() {
     return (
         <div className="App">
-            {movies.map(movie=> {
+            {movies.map((movie, index)=> {
                 return (
-                    <Movie key={movie.title} title={movie.title} poster={movie.poster} />
+                    <Movie key={index} title={movie.title} poster={movie.poster} />
                 )
             })}
         </div>
