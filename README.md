@@ -6,6 +6,7 @@
 * 그러나 트랜스파일러를 사용하기엔 이 강의에서는 복잡하다고 하므로 Facebook의 'create react app'을 사용한다고 함 (https://github.com/facebook/create-react-app)
 * this.props :: 부모 컴포넌트가 자식 컴포넌트에 정보를 주기 (ex. Movie의 title)
 * propTypes :: props로 넘어오는 변수의 자료형을 지정해야할 때 사용 
+* state :: 컴포넌트 안에 있는 오브젝트. setState로 바꿔야 하고, state가 바뀌면 render가 호출됨
 
 # 설치
 * node.js 설치 (http://nodejs.org)
