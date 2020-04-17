@@ -7,6 +7,8 @@
 * this.props :: 부모 컴포넌트가 자식 컴포넌트에 정보를 주기 (ex. Movie의 title)
 * propTypes :: props로 넘어오는 변수의 자료형을 지정해야할 때 사용 
 * state :: 컴포넌트 안에 있는 오브젝트. setState로 바꿔야 하고, state가 바뀌면 render가 호출됨
+* dumb 컴포넌트 :: state가 (필요) 없는 컴포넌트
+* smart 컴포넌트 :: state가 있는 컴포넌트
 
 # 설치
 * node.js 설치 (http://nodejs.org)
