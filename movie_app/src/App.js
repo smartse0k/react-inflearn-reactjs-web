@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Movie from './Movie';
 
@@ -21,6 +21,8 @@ const movies = [
     },
 ];
 
+// 클래스가 없는 이 App을 함수형 컴포넌트라고 함..
+/*
 function App() {
     return (
         <div className="App">
@@ -31,6 +33,22 @@ function App() {
             })}
         </div>
     );
+}
+*/
+
+// 강의를 따라하기 위해 클래스형 컴포넌트로 교체
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                {movies.map((movie, index)=> {
+                    return (
+                        <Movie key={index} title={movie.title} poster={movie.poster} />
+                    )
+                })}
+            </div>
+        )
+    }
 }
 
 export default App;
