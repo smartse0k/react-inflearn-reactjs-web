@@ -10,6 +10,12 @@
 
 * propTypes :: props로 넘어오는 변수의 자료형을 지정해야할 때 사용 
 
+* state :: 컴포넌트 안에 있는 오브젝트. setState로 바꿔야 하고, state가 바뀌면 render가 호출됨
+
+* dumb 컴포넌트 :: state가 (필요) 없는 컴포넌트
+
+* smart 컴포넌트 :: state가 있는 컴포넌트
+
 * 컴포넌트 생명주기 (몇몇은 deprecated 되었으므러 주의해야함)
 
         // 렌더 생명주기
