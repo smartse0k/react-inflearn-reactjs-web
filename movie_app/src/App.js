@@ -21,6 +21,13 @@ function App() {
 // 강의를 따라하기 위해 클래스형 컴포넌트로 교체
 // 클래스형 컴포넌트 = smart 컴포넌트
 class App extends Component {
+    // 렌더 생명주기
+    // componentWillMount -> render -> componentDidMount
+
+    // 업데이트 생명주기
+    // componentWillReceiveProps -> shouldComponentUpdate ->
+    // componentWillUpdate -> render -> componentDisUpdate
+    
     state = {
         greeting: "Hello!",
     };
