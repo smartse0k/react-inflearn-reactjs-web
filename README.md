@@ -31,3 +31,6 @@
 * node.js 설치 (http://nodejs.org)
 * \# npx create-react-app movie_app
 * \# npm add prop-types
+
+# 빌드
+* \# npm run-script build
