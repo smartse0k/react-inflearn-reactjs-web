@@ -25,6 +25,8 @@
         // componentWillReceiveProps -> shouldComponentUpdate ->
         // componentWillUpdate -> render -> componentDisUpdate
 
+* fetch() :: 최신 JS에서 AJAX에 사용되는 함수
+
 # 설치
 * node.js 설치 (http://nodejs.org)
 * \# npx create-react-app movie_app
